@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Pricing Component with toggle </title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sm">
+        <h1>Our Pricing</h1>
+        <div class="toggle_container">
+          <span>Annually</span>
+          <span class="toggle-container">
+            <input type="checkbox" name="toggle" id="toggle" unchecked />
+            <label for="toggle"><div class="ball"></div></label>
+          </span>
+          <span> Monthly</span>
+        </div>
+      </div>
+
+      <!-- Pricing table -->
+      <div class="flex" id="come">
+          <!-- Table 1 -->
+        <div class="price">
+          <h4>Basic</h4>
+          <p>
+            <span class="monthly">&dollar;19.99</span>
+            <span class="annually">&dollar;199.99</span>
+          </p>
+          <ul>
+            <li>500 GB Storage</li>
+            <li>2 Users Allowed</li>
+            <li>Send up to 3 GB</li>
+          </ul>
+          <button>Learn More</button>
+        </div>
+        <!-- Table 2 -->
+        <div class="price price_prof">
+          <h3>Professional</h3>
+          <p>
+            <span class="monthly"> &dollar;24.99</span>
+            <span class="annually"> &dollar;249.99</span>
+          </p>
+          <ul>
+            <li>1 TB Storage</li>
+            <li>5 Users Allowed</li>
+            <li>Send up to 10 GB</li>
+          </ul>
+          <button>Learn More</button>
+        </div>
+        <!-- Table 3 -->
+        <div class="price">
+          <h4>Master</h4>
+          <p>
+            <span class="monthly">&dollar;39.99</span>
+            <span class="annually"> &dollar;399.99</span>
+          </p>
+          <ul>
+            <li>2 TB Storage</li>
+            <li>10 Users Allowed</li>
+            <li>Send up to 20 GB</li>
+          </ul>
+          <button>Learn More</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
